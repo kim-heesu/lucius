@@ -10,8 +10,8 @@
 .inner:after,
 .list-style01:after,
 .info-wrap:after,
-.table-list :after,
 .img-area:after,
+.table-list:after,
 dl:after {
     content: "";
     display: block;
@@ -166,7 +166,7 @@ dl:after {
 }
 .count button {
     position: relative;
-    width: 20px;
+    width: 25px;
     height: 30px;
 }
 .count button:after {
@@ -2432,6 +2432,9 @@ select:focus + .ico-arrow {
 }
 .review-info .prod-list-info .info-text {
     margin: 12px 0;
+}
+.review-info .btn-review-more {
+
 }
 .review-info .prod-list-info .evaluation li {
     display: inline-block;
