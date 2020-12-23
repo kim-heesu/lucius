@@ -10,7 +10,7 @@
 .inner:after,
 .list-style01:after,
 .info-wrap:after,
-.table-list:after,
+.table-list :after,
 .img-area:after,
 dl:after {
     content: "";
